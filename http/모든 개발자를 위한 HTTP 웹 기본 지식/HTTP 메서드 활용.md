@@ -30,7 +30,7 @@
     <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-API1.png" width = 600/>  
    HTTP API 방식은 컬렉션, 스토어, HTML Form 이렇게 3가지 방식이 있다.   
    <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-API-POST1.png" width = 600/>  
-   <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-API-POST2.png" width = 600/>
+   <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-API-POST2.png" width = 600/>  
    왜 컬렉션 방식을 POST 기반이라고 하냐면 컬렉션 방식은 특정 종류의 리소스들을 다 모아놨으니까 리소스의 정확한 위치를 클라이언트가 모르더라도 /members만 하고 POST를 하면 서버가 알아서 새 리소스를 생성하고 그 위치를 반환하니까 컬렉션방식은 POST 기반 등록이라고 한다. 핵심은 클라이언트가 리소스의 정확한 위치를 몰라도 된다는 것이다.
    <br><br>
    <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-API-PUT1.png" width = 600/>  
