@@ -15,26 +15,27 @@
 ### 2xx - 성공
 2xx는 클라이언트의 요청을 성공적으로 받았고 처리를 시작하거나 완료했다는 뜻이다.
 
-- 200 OK  
+#### 200 OK  
 <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP200.png" width = 600/>  
 200은 요청을 성공적으로 받았고 처리를 성공적으로 완료했다는 뜻이다.  
-<br>
-- 201 Created  
+
+#### 201 Created  
 <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP201.png" width = 600/>  
 201은 요청을 성공적으로 받았고 처리를 성공적으로 완료했고 새로운 리소스를 생성했다는 뜻이다.  
-<br>
-- 202 Accepted
-202는 요청을 성공적으로 받았지만 처리를 완료하지 않았다는 뜻이다. 처리 완료까지 시간이 걸릴 수 있음을 의미한다.
-<br><br>
-- 204 No Content
+
+#### 202 Accepted
+202는 요청을 성공적으로 받았지만 처리를 완료하지 않았다는 뜻이다. 처리 완료까지 시간이 걸릴 수 있음을 의미한다.  
+
+#### 204 No Content
 204는 요청을 성공적으로 받았고 처리를 성공적으로 완료했지만 응답할 바디가 없다는 뜻이다.
 ex) 웹 문서 편집기에서 save 버튼
 
 ### 3xx - 리다이렉션
 3xx는 리다이렉션을 해야 한다는 것이다.  
 무슨 소리냐면 만약 응답으로 3xx을 받았고 헤더에 Location 헤더가 있으면 Location 위치로 자동 이동하는 것을 말한다.  
-<br><br>
+
 <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-Redirection.png" width = 600/>  
+
 그니까 클라이언트가 서버에게 요청을 보냈는데 그 요청에 대한 응답에 3xx가 있고 헤더에 Location이 있으면 클라이언트는 그 Location으로 수정하여 자동으로 요청을 다시 보내는 것이다. 이때 사용자가 새로고침을 할 필요없이 자동으로 된다.  
 
 <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-Redirection2.png" width = 600/>  
