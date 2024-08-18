@@ -38,7 +38,7 @@
    왜 스토어 방식을 PUT 기반이라고 하냐면 클라이언트가 원하는 리소스의 위치를 알고 직접 찾아가서 확인하거나 수정하는 방식이어서 스토어 방식을 PUT 기반 등록이라고 한다. 중요한 것은 이 PUT 기반은 클라이언트가 원하는 리소스의 위치를 안다는 것이다.
    <br><br> 
    <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-API-Form1.png" width = 600/>  
-   <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-API-Form2.png" width = 600/>  
+   <img src="https  ://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-API-Form2.png" width = 600/>  
    <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-API-Form3.png" width = 600/>  
    이렇게 HTML Form 방식은 GET, POST만 지원하기 때문에 여러 수정, 삭제 등 여러 기능을 이 GET, POST만으로 나타내기는 한계가 있기 때문에 동사로 된 리소스 경로를 사용하여 해결한다. 이 경로를 컨트롤 URI라고 한다.
    <br><br>
