@@ -15,10 +15,10 @@
 ### 2xx - 성공
 2xx는 클라이언트의 요청을 성공적으로 받았고 처리를 시작하거나 완료했다는 뜻이다.
 
-#### 200 OK  
+- 200 OK  
 <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP200.png" width = 600/>  
-200은 요청을 성공적으로 받았고 처리를 성공적으로 완료했다는 뜻이다.  
-
+200은 요청을 성공적으로 받았고 처리를 성공적으로 완료했다는 뜻이다.
+  
 #### 201 Created  
 <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP201.png" width = 600/>  
 201은 요청을 성공적으로 받았고 처리를 성공적으로 완료했고 새로운 리소스를 생성했다는 뜻이다.  
@@ -33,9 +33,8 @@ ex) 웹 문서 편집기에서 save 버튼
 ### 3xx - 리다이렉션
 3xx는 리다이렉션을 해야 한다는 것이다.  
 무슨 소리냐면 만약 응답으로 3xx을 받았고 헤더에 Location 헤더가 있으면 Location 위치로 자동 이동하는 것을 말한다.  
-
+<br><br>
 <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-Redirection.png" width = 600/>  
-
 그니까 클라이언트가 서버에게 요청을 보냈는데 그 요청에 대한 응답에 3xx가 있고 헤더에 Location이 있으면 클라이언트는 그 Location으로 수정하여 자동으로 요청을 다시 보내는 것이다. 이때 사용자가 새로고침을 할 필요없이 자동으로 된다.  
 
 <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-Redirection2.png" width = 600/>  
@@ -48,27 +47,4 @@ PRG 패턴은 뭐냐면 POST/Redirect/Get를 말하는 것인데, 그니까 리�
 
 ### 5xx - 서버 오류
 요청이 실패했음을 나타내는 것인데 오류의 원인이 서버에게 있다는 뜻이다.
-
-
-
-////////다음
-
-## HTTP 헤더1 - 일반 헤더
-HTTP 헤더에는 HTTP 전송에 필요한 메타 데이터가 들어간다.  
-<img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-header1.png" width = 600/>  
-<br>
-<img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-header2.png" width = 600/>  
-메시지 본문와 관련된 정보들은 이러한 것들이 있다.
-
-
-Accept-Language: ko-KR;q=1,ko;q=0.9,en-US;q=0.8,en;q=0.7
-
-Accept: text/, text/plain, text/p
-
-
-
-
-
-
-
 
