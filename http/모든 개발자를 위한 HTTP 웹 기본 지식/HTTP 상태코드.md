@@ -17,16 +17,16 @@
 
 - 200 OK  
 <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP200.png" width = 600/>  
-200은 요청을 성공적으로 받았고 처리를 성공적으로 완료했다는 뜻이다.  
-<br>
-- 201 Created  
+200은 요청을 성공적으로 받았고 처리를 성공적으로 완료했다는 뜻이다.
+  
+#### 201 Created  
 <img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP201.png" width = 600/>  
 201은 요청을 성공적으로 받았고 처리를 성공적으로 완료했고 새로운 리소스를 생성했다는 뜻이다.  
-<br>
-- 202 Accepted
-202는 요청을 성공적으로 받았지만 처리를 완료하지 않았다는 뜻이다. 처리 완료까지 시간이 걸릴 수 있음을 의미한다.
-<br><br>
-- 204 No Content
+
+#### 202 Accepted
+202는 요청을 성공적으로 받았지만 처리를 완료하지 않았다는 뜻이다. 처리 완료까지 시간이 걸릴 수 있음을 의미한다.  
+
+#### 204 No Content
 204는 요청을 성공적으로 받았고 처리를 성공적으로 완료했지만 응답할 바디가 없다는 뜻이다.
 ex) 웹 문서 편집기에서 save 버튼
 
