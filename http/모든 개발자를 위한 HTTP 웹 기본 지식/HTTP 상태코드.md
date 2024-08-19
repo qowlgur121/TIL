@@ -49,3 +49,26 @@ PRG 패턴은 뭐냐면 POST/Redirect/Get를 말하는 것인데, 그니까 리�
 ### 5xx - 서버 오류
 요청이 실패했음을 나타내는 것인데 오류의 원인이 서버에게 있다는 뜻이다.
 
+
+
+////////다음
+
+## HTTP 헤더1 - 일반 헤더
+HTTP 헤더에는 HTTP 전송에 필요한 메타 데이터가 들어간다.  
+<img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-header1.png" width = 600/>  
+<br>
+<img src="https://github.com/qowlgur121/TIL/blob/main/http/images/HTTP-header2.png" width = 600/>  
+메시지 본문와 관련된 정보들은 이러한 것들이 있다.
+
+
+Accept-Language: ko-KR;q=1,ko;q=0.9,en-US;q=0.8,en;q=0.7
+
+Accept: text/, text/plain, text/p
+
+
+
+
+
+
+
+
