@@ -47,17 +47,34 @@ HTTP 헤더에는 HTTP 전송에 필요한 메타 데이터가 들어간다.
 전송 방식을 이렇게 존재한다.
 
 #### 단순 전송
-![img_1.png](HTTP-header11.png)  
+![img_1.png](../images/HTTP-header11.png)  
 단순 전송은 서버가 클라이언트에게 데이터를 보낼 때 미리 전체 데이터의 크기를 알려주고 한번에 데이터를 보내는 방식이다.
 
 #### 압축 전송
-![img_2.png](HTTP-header12.png)  
+![img_2.png](../images/HTTP-header12.png)  
 압축 전송은 데이터를 압축해서 보내는 방식이다.  
   
 #### 분할 전송
-![img_3.png](HTTP-header13.png)  
+![img_3.png](../images/HTTP-header13.png)  
 데이터를 한번에 보내지 않고 분할해서 보내는 방식이다.
 
 #### 범위 전송
-![img_4.png](HTTP-header14.png)  
+![img_4.png](../images/HTTP-header14.png)  
 이 방식은 필요한 데이터의 범위만 전송하는 방식인데 이 방식은 클라이언트가 전체 데이터 중 특정 부분만 필요할 때 쓰면 좋다.
+
+### 일반 정보
+![img.png](../images/HTTP-header15.png)
+HTTP의 일반 정보에는 이러한 것들이 있다.
+
+#### From
+![img_1.png](../images/HTTP-header16.png)  
+이것은 클라이언트가 서버에게 방문한 자의 이메일 주소를 남기는 용도이다.
+예를 들어, 검색 엔진이 웹 사이트를 크롤링 할 때 쓰였는데 이 때 크롤링 담당 근무자의 이메일 주소를 남겼었다. 만약 문제가 생기면 이 담당자에게 연락하라고 하는 용도로 From이 쓰였었다.
+지금은 보안 이슈로 잘 쓰이지 않는다.
+
+#### Referer
+Referer은 현재 페이지를 방문하기 전에 있던 웹 페이지 주소
+
+#### User-Agent
+클라이언트가 어떤 환경인지 알려준다.
+![img_2.png](../images/HTTP-header17.png)
