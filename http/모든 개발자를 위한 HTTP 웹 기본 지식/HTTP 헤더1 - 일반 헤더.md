@@ -95,23 +95,23 @@ Referer은 현재 페이지를 방문하기 전에 있던 웹 페이지 주소
 ![img.png](../images/HTTP-header20.png)  
 이런 것들이 있다.
 
-![img.png](HTTP-header21.png)
+![img.png](../images/HTTP-header21.png)
 여기서 특히 Host는 필수인데 이게 뭐냐면 
 사실 하나의 서버에는 여러 도메인을 여러 웹 사이트를 운영하는 가상 호스팅 환경이 일반적이다.   
 그렇기 때문에 클라이언트가 IP만 가지고 어떤 웹 사이트에 접속해야 할지 알 수 없다.  
 그래서 이 Host 헤더를 필수로 명시해야 한다.
 
 ### 인증
-![img_1.png](HTTP-header22.png)
+![img_1.png](../images/HTTP-header22.png)
 Authorization 헤더는 클라이언트가 서버에게 아이디와 비밀번호 등 인증에 필요한 정보를 주는 것이고,  
 WWW-Authorization 헤더는 만약 클라이언트가 서버에게 인증에 충분하지 않은 정보를 주었을때,
 서버가 클라이언트에게 인증 방식을 알려주는 것이다.
 
 ### 쿠키
-![img_5.png](HTTP-header26.png)
-![img_2.png](HTTP-header23.png)  
-![img_3.png](HTTP-header24.png)
-![img_4.png](HTTP-header25.png)
+![img_5.png](../images/HTTP-header26.png)
+![img_2.png](../images/HTTP-header23.png)  
+![img_3.png](../images/HTTP-header24.png)
+![img_4.png](../images/HTTP-header25.png)
 
 HTTP 통신은 무상태 프로토콜이다.  
 그니까 클라이언트가 서버에게 메시지를 주었을때 서버는 그것을 기억하지 못한다.  
