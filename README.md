@@ -16,7 +16,7 @@
       - [HTTP 헤더2 - 캐시와 조건부 요청](https://github.com/qowlgur121/TIL/blob/main/http/%EB%AA%A8%EB%93%A0%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20HTTP%20%EC%9B%B9%20%EA%B8%B0%EB%B3%B8%20%EC%A7%80%EC%8B%9D/HTTP%20%ED%97%A4%EB%8D%942%20-%20%EC%BA%90%EC%8B%9C%EC%99%80%20%EC%A1%B0%EA%B1%B4%EB%B6%80%20%EC%9A%94%EC%B2%AD.md)
         
 - ## Java
-  [자바](https://velogㅂ.io/@qowlgur121/series/%EC%9E%90%EB%B0%94)
+  [자바](https://velog.io/@qowlgur121/series/%EC%9E%90%EB%B0%94)
 
 - ## Spring
   - ### Spring MVC
